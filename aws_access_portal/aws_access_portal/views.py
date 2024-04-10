@@ -7,4 +7,4 @@ def init(request):
         return render(request, "index.html", {})
 
 def index(request):
-    return JsonResponse({"message": "Hello this wonderful world!"}, status=200)
+    return JsonResponse({"message": "Welcome to the AWS Account Portal app!"}, status=200)
