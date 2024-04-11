@@ -1,0 +1,39 @@
+/* semantic color variables for this project */
+:root {
+  --primary-color: #007bff; /* Primary button color */
+  --secondary-color: #6c757d; /* Secondary text color */
+}
+
+a {
+  color: var(--primary-color);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header, footer {
+  background: #f8f9fa;
+  color: #333;
+  padding: 20px 0;
+}
+
+header a, footer a {
+  color: #007bff;
+  text-decoration: none;
+}
